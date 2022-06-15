@@ -5,7 +5,7 @@ import "components/InterviewerListItem.scss";
 
 export default function InterviewListItem(props) {
 
-  const [interviewer, setInterviewer] = useState('');
+  // const [interviewer, setInterviewer] = useState('');
 
 const interviewerClass = 
 classNames ("interviewers__item", {
