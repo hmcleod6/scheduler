@@ -54,8 +54,11 @@ export default function Application(props) {
     appointments: {}
   });
 
+  const setDay = day => setState({ ...state, day });
+  const setDays = days => setState(prev => ({ ...prev, days }));
+
   useEffect(() => {
-    axios.get("/api/days").then( (res) => {setDays(res.data)})
+    axios.get("/api/days").then(response => setState({ ...state, days: response.data }));
 }, [])
 
   return (
@@ -73,7 +76,7 @@ export default function Application(props) {
         <DayList
           days={state.days}
           value={state.day}
-          onChange={setDay}
+          setDay={setDay}
         />
     </nav>
     <img
