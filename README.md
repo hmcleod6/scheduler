@@ -21,10 +21,10 @@ The Interview Scheduler is an appointment scheduling app for students and interv
 ## Screenshots
 
 !["Screenshot 1 - Creating an appointment"](https://github.com/hmcleod6/scheduler/blob/master/docs/Screenshot%201%20-%20Creating%20an%20appointment.png?raw=true)
-"Screenshot 1 - Creating an appointment"
+Screenshot 1 - Creating an appointment
 
 !["Screenshot 2 - Delete appointment confirmation screen"](https://github.com/hmcleod6/scheduler/blob/master/docs/Screenshot%202%20-%20Delete%20confirmation.png?raw=true)
-"Screenshot 2 - Delete appointment confirmation screen"
+Screenshot 2 - Delete appointment confirmation screen
 
 !["Screenshot 3 - View of Interview Scheduler page with appointments"](https://github.com/hmcleod6/scheduler/blob/master/docs/Screenshot%203%20-%20View%20scheduler%20page.png?raw=true)
-"Screenshot 3 - View of Interview Scheduler page with appointments"
+Screenshot 3 - View of Interview Scheduler page with appointments
